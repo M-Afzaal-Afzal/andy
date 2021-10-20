@@ -1,0 +1,114 @@
+.container-col {
+    max-width: 1250px;
+    margin: auto;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-col h1{
+    position: relative;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .container-col h1::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 180px;
+    height: 2px;
+    background-color: #707070;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .up{
+      width: 100%;
+      position: relative;
+  }
+  .up img{
+      width: 100%;
+  }
+  .content{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 300px;
+      background-color: #0060a9;
+  }
+  .attribute{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px 0px 40px 0px;
+  }
+  .attribute h2,.category h2{
+    position: relative;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #707070;
+  }
+  .attribute h2::before,.category h2::before{
+    position: absolute;
+    content: "";
+    bottom: -4px;
+    width: 120px;
+    height: 2px;
+    background-color: #707070;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .attribute p{
+    font-family:'Poppins', sans-serif;
+    color: #707070;
+  }
+  .category{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .category h2::before{
+      width: 140px;
+  }
+  .category ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 400px;
+      text-align: center;
+  }
+  .category ul li{
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      color: #707070;
+      width: 120px;
+      margin-bottom: 20px;
+  }
+  @media screen and (max-width:800px) {
+    .container-col{
+      max-width: 100%;
+    }
+    .container-col h1{
+      margin-bottom: 50px;
+    }
+    .content{
+      width: 200px;
+      height: 200px;
+    }
+    .up{
+      margin-bottom: 50px;
+    }
+  }
