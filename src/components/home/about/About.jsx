@@ -42,7 +42,7 @@ function About() {
       </div>
       <div className="about-right">
         <div className="about-img">
-          <Image width={622} height={482.78} src="/2.jpg" alt="" />
+          <Image width={822} height={682.78} src="/2.jpg" alt="" />
         </div>
         <div className="form">
           <form action="" method="post">

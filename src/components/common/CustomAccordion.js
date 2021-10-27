@@ -61,14 +61,15 @@ export default function CustomizedAccordions({heading,description}) {
                             <AccordionSummary expandIcon={expanded ? <RemoveIcon/> : <AddIcon/>} aria-controls="panel1d-content" id="panel1d-header">
                                 <Box sx={{
                                     fontFamily: `'Poppins', sans-serif`,
-                                    fontSize: '23px',
+                                    fontSize: '30px',
                                 }}>
                                     {heading}
                                 </Box>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Box sx={{
-                                    fontFamily: `'Poppins', sans-serif`
+                                    fontFamily: `'Poppins', sans-serif`,
+                                    fontSize: '1.2rem',
                                 }}>
                                     {description}
                                 </Box>

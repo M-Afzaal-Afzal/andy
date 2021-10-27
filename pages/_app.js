@@ -7,7 +7,7 @@ import { CacheProvider } from '@emotion/react';
 import theme from '../src/theme/theme';
 import createEmotionCache from '../src/utils/createEmotionCache';
 import '../src/styles/global.css';
-import '../src/components/home/Head/Head.css';
+import '../src/components/home/Hero/Hero.css';
 import '../src/components/home/Footer/Footer.css';
 import '../src/components/home/about/About.css';
 import '../src/components/home/faq/FAQ.css';

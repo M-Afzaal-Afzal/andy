@@ -37,8 +37,10 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 300px;
-      height: 300px;
+      max-width: 600px;
+      max-height: 600px;
+      height: 100%;
+      width: 100%;
       background-color: #0060a9;
   }
   .attribute{
@@ -50,7 +52,7 @@
   }
   .attribute h2,.category h2{
     position: relative;
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-transform: capitalize;
@@ -70,6 +72,7 @@
   .attribute p{
     font-family:'Poppins', sans-serif;
     color: #707070;
+      font-size: 1.3rem;
   }
   .category{
       display: flex;
@@ -90,7 +93,7 @@
       text-align: center;
   }
   .category ul li{
-      font-size: 18px;
+      font-size: 1.3rem;
       font-family: 'Poppins', sans-serif;
       font-style: normal;
       color: #707070;
@@ -105,8 +108,8 @@
       margin-bottom: 50px;
     }
     .content{
-      width: 200px;
-      height: 200px;
+      max-width: 300px;
+      max-height: 300px;
     }
     .up{
       margin-bottom: 50px;

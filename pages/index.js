@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
-import Head from '../src/components/home/Head/Head';
+import Hero from '../src/components/home/Hero/Hero';
 import About from "../src/components/home/about/About";
 import Collection from "../src/components/home/collection/Collection";
 import FAQ from "../src/components/home/faq/FAQ";
@@ -11,7 +11,7 @@ import Roadmap from "../src/components/home/Roadmap/Roadmap";
 export default function Index() {
   return (
     <div>
-      <Head />
+      <Hero />
       <About />
         <Roadmap/>
       <Collection />
