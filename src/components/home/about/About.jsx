@@ -45,7 +45,7 @@ function About() {
           <Image width={822} height={682.78} src="/2.jpg" alt="" />
         </div>
         <div className="form">
-          <form action="" method="post">
+          <form>
             <h1>8,000 NFTS</h1>
             <div className="form-input">
               <div className="spans">
@@ -80,7 +80,7 @@ function About() {
               </div>
             </div>
             <div className="btn">
-              <Button variant="text" type="submit">
+              <Button variant="text" type="button">
                 MINT
               </Button>
             </div>
