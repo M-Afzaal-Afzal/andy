@@ -1,6 +1,6 @@
 .faq-container {
-  max-width: 1250px;
-  margin: auto;
+  /*max-width: 1250px;*/
+  margin: auto 2rem;
   padding: 50px 3px;
   position: relative;
   display: flex;
@@ -10,8 +10,8 @@
 }
 .faq-container h1{
   position: relative;
-  font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 60px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }

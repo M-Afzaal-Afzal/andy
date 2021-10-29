@@ -53,7 +53,7 @@ function FAQ() {
 
     return (
         <Box sx={{
-            maxWidth: '1000px',
+            // maxWidth: '1000px',
         }} className="faq-container">
             <h1>FAQ</h1>
             <div className="">

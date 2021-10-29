@@ -1,5 +1,5 @@
 .container-team{
-    max-width: 1250px;
+    /*max-width: 1250px;*/
     margin: auto;
     position: relative;
     display: flex;
@@ -10,9 +10,9 @@
 }
 .container-team h1{
     position: relative;
-  font-size: 30px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+    font-weight: 700;
+    font-size: 60px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
