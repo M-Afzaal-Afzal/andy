@@ -46,7 +46,7 @@ const Roadmap = () => {
                                     display: 'grid',
                                     gridTemplateRows: 'auto 1fr auto',
                                     placeItems: 'center',
-                                    boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'
+                                    boxShadow: '10px 10px 10px #00000029',
                                 }}>
 
                                     <Box sx={{
@@ -178,7 +178,7 @@ const Roadmap = () => {
                                     minHeight: '325px',
                                     padding: '1rem',
                                     background: '#BED6E9',
-                                    boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+                                    boxShadow: '10px 10px 10px #00000029',
                                     mr: 'auto',
                                     position: 'relative',
                                     display: 'grid',
@@ -252,7 +252,7 @@ const Roadmap = () => {
                                     width: '100%',
                                     height: '325px',
                                     background: '#BED6E9',
-                                    boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+                                    boxShadow: '10px 10px 10px #00000029',
                                     ml: 'auto',
                                     position: 'relative',
                                     display: 'grid',
@@ -387,7 +387,7 @@ const Roadmap = () => {
                                     width: '100%',
                                     height: '325px',
                                     background: '#BED6E9',
-                                    boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+                                    boxShadow: '10px 10px 10px #00000029',
                                     mr: 'auto',
                                     position: 'relative',
                                     display: 'grid',
@@ -461,7 +461,7 @@ const Roadmap = () => {
                                     width: '100%',
                                     height: '325px',
                                     background: '#BED6E9',
-                                    boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+                                    boxShadow: '10px 10px 10px #00000029;',
                                     ml: 'auto',
                                     position: 'relative',
                                     display: 'grid',
