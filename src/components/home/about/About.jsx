@@ -41,8 +41,11 @@ function About() {
         </p>
       </div>
       <div className="about-right">
-        <div className="about-img">
-          <Image width={822} height={682.78} src="/2.jpg" alt="" />
+        <div style={{
+          width: '511px',
+          height: '816px',
+        }} className="about-img">
+          <Image layout={'fill'} objectFit={'cover'} src="/nftBg.svg" alt="" />
         </div>
         <div className="form">
           <form>

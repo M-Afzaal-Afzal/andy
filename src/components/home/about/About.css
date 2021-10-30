@@ -1,12 +1,12 @@
 .container-about {
-  max-width: 1250px;
+  /*max-width: 1250px;*/
   margin: auto;
   padding: 50px 3px;
   /* min-height: 70vh; */
 }
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .about-left {
