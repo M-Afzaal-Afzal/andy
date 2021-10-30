@@ -9,13 +9,13 @@ function FAQ() {
 
     const faqs = [
         {
-            id: `1`,
+            id: 1,
             heading: `Will there be a pre-sale?`,
             description: ` No, Just the public sale. We aim to provide everyone the opportunity
             to purchase at the same time.`,
         },
         {
-            id: `2`,
+            id: 2,
             heading: `What is the cost of each NFT?`,
             description: <>
                 Each Influencer Icon NFT will have a low Mint price of 0.1 ETH Check
@@ -25,17 +25,17 @@ function FAQ() {
             </>,
         },
         {
-            id: `3`,
+            id: 3,
             heading: `When is the drop/mint/sale?`,
             description: `No presale.`,
         },
         {
-            id: `4`,
+            id: 4,
             heading: `What is the Ethereum Smart Contract address?`,
             description: ``,
         },
         {
-            id: `5`,
+            id: 5,
             heading: `What are the links?`,
             description: <>
                 <a href="">https://opensea.io/influencericons</a>
@@ -86,7 +86,7 @@ function FAQ() {
                     {
                         faqs.map(({heading,description,id}) => {
                             return(
-                                <CustomizedAccordions key={id} heading={heading} description={description}/>
+                                <CustomizedAccordions key={id} heading={heading} panel={`panel${id}`} description={description}/>
                             )
                         })
                     }

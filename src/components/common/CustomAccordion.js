@@ -48,7 +48,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
     // borderTop: '1px solid rgba(0, 0, 0, .125)',
 }));
 
-export default function CustomizedAccordions({heading,description}) {
+export default function CustomizedAccordions({heading,description,panel}) {
     const [expanded, setExpanded] = React.useState(false);
 
     const handleChange = (panel) => (event, newExpanded) => {
@@ -57,8 +57,8 @@ export default function CustomizedAccordions({heading,description}) {
 
     return (
         <div>
-                        <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-                            <AccordionSummary expandIcon={expanded ? <RemoveIcon/> : <AddIcon/>} aria-controls="panel1d-content" id="panel1d-header">
+                        <Accordion expanded={expanded===panel} onChange={handleChange(panel)}>
+                            <AccordionSummary expandIcon={expanded ? <RemoveIcon/> : <AddIcon/>} aria-controls={`${panel}d-content`} id={`${panel}d-header`}>
                                 <Box sx={{
                                     fontFamily: `'Poppins', sans-serif`,
                                     fontSize: '30px',
