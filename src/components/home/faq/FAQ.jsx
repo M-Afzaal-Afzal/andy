@@ -62,7 +62,26 @@ function FAQ() {
                     position: 'relative',
                     p: '5rem',
                 }} className="">
-                    <Image src={'/4.jpg'} layout={'fill'} objectFit={'fill'}/>
+
+                    {/* top left image*/}
+                    <Box sx={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                    }}>
+                        <Image width={301} height={321} src={'/leftDots.svg'} />
+
+                    </Box>
+
+                    {/*Bottom right image*/}
+                    <Box sx={{
+                        position: 'absolute',
+                        bottom: 0,
+                        right: 0,
+                    }}>
+
+                    <Image src={'/rightDots.svg'} width={301} height={321} />
+                    </Box>
 
                     {
                         faqs.map(({heading,description,id}) => {

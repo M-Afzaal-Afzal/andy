@@ -102,7 +102,7 @@
     list-style: none;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     place-items: center;
     justify-content: space-evenly;
     align-items: center;

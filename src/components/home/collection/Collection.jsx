@@ -70,7 +70,7 @@ function Collection() {
                 marginTop: '5rem',
             }} className="attribute">
                 <h2>Attributes</h2>
-                <p>Influancer Names</p>
+                <p>Influencer Names</p>
             </Box>
             <div className="category">
                 <h2>Categories</h2>
