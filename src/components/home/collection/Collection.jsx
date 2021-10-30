@@ -8,7 +8,7 @@ function Collection() {
         <div className="container-col">
             <h1>Collection</h1>
             <div className="up">
-                <Image height={441.41} width={1250} src="/3.jpg" alt=""/>
+                <Image layout={"fill"} objectFit={'cover'} src="/collectionBg.svg" alt="Collection Background"/>
 
                 <Box sx={{
                     '&:before': {
