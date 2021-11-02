@@ -64,7 +64,7 @@ function About() {
                 <span>Amount</span>
                 <div className="mid">
                   <label htmlFor="-">-</label>
-                  <input id="input" type="text" value="10" />
+                  <input id="input" type="text" value="1" />
                   <label htmlFor="+">+</label>
                 </div>
                 <Button variant="text">Max</Button>

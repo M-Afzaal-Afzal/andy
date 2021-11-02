@@ -2,15 +2,16 @@ import React from "react";
 // import "./Hero.css";
 import Image from "next/image";
 import {Box, Typography} from "@mui/material";
+import Background from '../../../images/1.jpg';
 
 function Hero() {
   return (
     <Box sx={{
         position: 'relative',
     }} className="hero_container">
-      {/*<div className="img">*/}
-      {/*  <Image priority width={1250} height={784.5} src="/1.jpg" alt="Hero Image" />*/}
-      {/*</div>*/}
+      <div className="img">
+        <Image priority src={Background} alt="Hero Image" />
+      </div>
       <Box sx={{
           position: 'absolute',
           top: '100px',

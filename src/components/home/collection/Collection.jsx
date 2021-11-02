@@ -2,12 +2,15 @@ import React from 'react';
 // import "./Collection.css";
 import Image from "next/image";
 import {Box, Stack} from "@mui/material";
+import Nft from '../../../images/nft.png';
 
 function Collection() {
     return (
         <div className="container-col">
             <h1>Collection</h1>
-            <div className="up">
+            <Box sx={{
+                my: "11rem",
+            }} className="up">
                 <Image layout={"fill"} objectFit={'cover'} src="/collectionBg.svg" alt="Collection Background"/>
 
                 <Box sx={{
@@ -17,55 +20,61 @@ function Collection() {
                         top: 0,
                         left: 0,
                         width: '100%',
-                        height: '100%',
-                        backdropFilter: 'blur(3px)',
+                        // height: '100%',
+                        // backdropFilter: 'blur(3px)',
+
                     },
                     display: 'flex',
+                    justifyContent: 'center',
                     // justifyContent: 'center',
                     alignItems: 'center',
                     paddingLeft: '2rem',
                 }} className={'content'}
 
                 >
-                    <Stack sx={{
-                        color: "#fff",
-                        padding: '1rem'
-                    }} direction={'column'} spacing={1} className="">
-                        <Box>
-                            Logan Paul
-                        </Box>
 
-                        <Box>
-                            Ryan Garcia
-                        </Box>
+                    <Image src={Nft} />
 
-                        <Box>
-                            Zach King
-                        </Box>
+                    {/*<Stack sx={{*/}
+                    {/*    color: "#fff",*/}
+                    {/*    padding: '1rem'*/}
+                    {/*}} direction={'column'} spacing={1} className="">*/}
+                    {/*    <Box>*/}
+                    {/*        Logan Paul*/}
+                    {/*    </Box>*/}
 
-                        <Box>
-                            Jay Alvarrez
-                        </Box>
+                    {/*    <Box>*/}
+                    {/*        Ryan Garcia*/}
+                    {/*    </Box>*/}
 
-                        <Box>
-                            Gigi Hadid
-                        </Box>
+                    {/*    <Box>*/}
+                    {/*        Zach King*/}
+                    {/*    </Box>*/}
 
-                        <Box>
-                            Cameron Dallas
-                        </Box>
+                    {/*    <Box>*/}
+                    {/*        Jay Alvarrez*/}
+                    {/*    </Box>*/}
 
-                        <Box>
-                            Loren Gray
-                        </Box>
+                    {/*    <Box>*/}
+                    {/*        Gigi Hadid*/}
+                    {/*    </Box>*/}
 
-                        <Box>
-                            Jimmy Donaldson (MrBeast)
-                        </Box>
+                    {/*    <Box>*/}
+                    {/*        Cameron Dallas*/}
+                    {/*    </Box>*/}
 
-                    </Stack>
+                    {/*    <Box>*/}
+                    {/*        Loren Gray*/}
+                    {/*    </Box>*/}
+
+                    {/*    <Box>*/}
+                    {/*        Jimmy Donaldson (MrBeast)*/}
+                    {/*    </Box>*/}
+
+                    {/*</Stack>*/}
                 </Box>
-            </div>
+
+            </Box>
             <Box sx={{
                 marginTop: '5rem',
             }} className="attribute">
