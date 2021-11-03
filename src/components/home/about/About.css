@@ -36,7 +36,7 @@
   transform: translateX(-50%);
 }
 .about-left p{
-    text-align: center;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
     padding: 0 20px 0 40px;
     font-size: 1.3rem;
