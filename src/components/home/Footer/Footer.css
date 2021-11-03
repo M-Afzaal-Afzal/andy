@@ -64,6 +64,8 @@
     }
     .social{
         margin-bottom: 20px;
+        display: flex;
+        align-items: center;
     }
     .Footer{
         max-width: 100%;
