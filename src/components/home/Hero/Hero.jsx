@@ -1,14 +1,55 @@
 import React from "react";
 // import "./Hero.css";
 import Image from "next/image";
-import {Box, Typography} from "@mui/material";
+import {Box, Stack, Typography} from "@mui/material";
 import Background from '../../../images/1.jpg';
+import {FaDiscord, FaTwitter} from "react-icons/fa";
 
 function Hero() {
   return (
     <Box sx={{
         position: 'relative',
     }} className="hero_container">
+
+      {/*   top left icons*/}
+
+        <Stack direction={'row'} spacing={1} sx={{
+            position: 'absolute',
+            right: 0,
+            top: 0,
+            padding: '1rem',
+            zIndex: 5 ,
+        }}>
+            <Box as={'a'} href={'#'} sx={{
+                border: '1px solid #fff',
+                borderRadius: '4px',
+                display: 'flex',
+                justifyContent: 'center',
+                padding: '4px 8px',
+            }}>
+                <FaDiscord color={'#fff'}  size={30} fontSize={'60px'}/>
+            </Box>
+            <Box as={'a'} href={'#'} sx={{
+                border: '1px solid #fff',
+                borderRadius: '4px',
+                display: 'flex',
+                justifyContent: 'center',
+                padding: '4px 8px',
+            }}>
+                <FaTwitter color={'#fff'}  size={30} fontSize={'60px'}/>
+            </Box>
+            <Box as={'a'} href={'#'} sx={{
+                border: '1px solid #fff',
+                borderRadius: '4px',
+                display: 'flex',
+                justifyContent: 'center',
+                padding: '4px 8px',
+            }}>
+                <FaDiscord color={'#fff'}  size={30} fontSize={'60px'}/>
+            </Box>
+
+        </Stack>
+
       <div className="img">
         <Image priority src={Background} alt="Hero Image" />
       </div>
