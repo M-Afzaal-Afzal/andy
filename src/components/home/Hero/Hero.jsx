@@ -68,6 +68,8 @@ function Hero() {
         </Typography>
         <Typography sx={{
             fontSize: '1.2rem',
+            fontFamily: `'Shadows Into Light'`,
+            letterSpacing: '1.5px',
         }} variant={'body1'}>
             Who will make the list?
         </Typography>
