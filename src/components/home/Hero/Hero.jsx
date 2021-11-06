@@ -61,15 +61,19 @@ function Hero() {
       }} className="">
         <Typography sx={{
             fontSize: '3.5rem',
+            fontFamily: `'Abril Fatface', cursive`,
+            letterSpacing: '.5px',
+            textAlign: 'center',
         }} variant={'h1'}>
           The Top 100
           <br />
           Influencers!
         </Typography>
         <Typography sx={{
-            fontSize: '1.2rem',
+            fontSize: '1.4rem',
             fontFamily: `'Shadows Into Light'`,
-            letterSpacing: '1.5px',
+            letterSpacing: '1.8px',
+            textAlign: 'center',
         }} variant={'body1'}>
             Who will make the list?
         </Typography>
