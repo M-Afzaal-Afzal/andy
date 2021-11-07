@@ -16,6 +16,27 @@ export default class MyDocument extends Document {
                             <link
                                 href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Paytone+One&family=Play:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Shadows+Into+Light&display=swap"
                                 rel="stylesheet"/>
+                    <link
+                        href='/fonts/DrescherGroteskBTSemiBold.ttf'
+                        rel='preload'
+                        as='font'
+                        type='font/ttf'
+                        crossOrigin='anonymous'
+                    />
+                    <link
+                        href='/fonts/DrescherGroteskBTBold.ttf'
+                        rel='preload'
+                        as='font'
+                        type='font/ttf'
+                        crossOrigin='anonymous'
+                    />
+                    <link
+                        href='/fonts/drescher-grotesk-bt-bold.ttf'
+                        rel='preload'
+                        as='font'
+                        type='font/ttf'
+                        crossOrigin='anonymous'
+                    />
                 </Head>
                 <body>
                 <Main/>

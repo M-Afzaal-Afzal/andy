@@ -4,3 +4,27 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+@font-face {
+    font-family: "Drescher Grotesk BT SemiBold",'sans-serif';
+    src: url("/fonts/DrescherGroteskBTSemiBold.ttf");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Drescher Grotesk BT Bold",'sans-serif';
+    src: url("/fonts/DrescherGroteskBTBold.ttf");
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Drescher Grotesk BT Bold",'sans-serif';
+    src: url("/fonts/drescher-grotesk-bt-bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}

@@ -50,6 +50,27 @@ function Hero() {
 
         </Stack>
 
+        <Box sx={{
+            position: 'absolute',
+            left: '11%',
+            fontWeight: 'bold',
+            color: "#fff",
+            top: 0,
+            // padding: '1rem',
+            py: "1rem",
+            zIndex: 5 ,
+        }}>
+            <Box sx={{
+                // fontFamily: `'Drescher Grotesk BT Bold'`,
+                textTransform: 'Uppercase',
+                fontSize: '45px',
+            }}
+                 // variant={'h1'}
+            >
+                Influencer Icons
+            </Box>
+        </Box>
+
       <div className="img">
         <Image priority src={Background} alt="Hero Image" />
       </div>
